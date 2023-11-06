@@ -805,6 +805,9 @@ h1 code {
     translate: unset;
     transition: unset;
     white-space: nowrap;
+    translate: 0;
+    opacity: 1;
+    pointer-events: all;
   }
 
   .navbar:not(.navbar--tall) .navbar__nav {
